@@ -1,6 +1,6 @@
 # project WRO
 
-![License Badge](https://img.shields.io/badge/license-MIT-blue.svg)(LICENSE)
+[![License Badge](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Compatibility](https://img.shields.io/badge/python-3-brightgreen.svg)
 ![Modified](https://img.shields.io/badge/Coverage-working-orange)
 
