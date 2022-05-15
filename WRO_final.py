@@ -38,13 +38,13 @@ while True:
 
     def redpos(medium_rx, center_x):
         if medium_rx > center_x+100:
-            return cv2.putText(imageFrame, "Red right= "+ str(medium_rx), (260,80), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 0))
+            cv2.putText(imageFrame, "Red right= "+ str(medium_rx), (260,80), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 0))
         elif medium_rx == 0:
             cv2.putText(imageFrame, "Red Not in screen", (260,80), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 0))
         elif medium_rx < center_x-100:
-            return cv2.putText(imageFrame, "Red left= "+ str(medium_rx), (260,80), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 0))
+            cv2.putText(imageFrame, "Red left= "+ str(medium_rx), (260,80), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 0))
         elif medium_rx <= center_x + 100 and medium_rx >= center_x - 100:
-            return cv2.putText(imageFrame, "Red center= "+ str(medium_rx), (260,80), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 0))
+            cv2.putText(imageFrame, "Red center= "+ str(medium_rx), (260,80), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 0))
 
 
     success, imageFrame = webcam.read()
