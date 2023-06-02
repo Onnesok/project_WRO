@@ -15,6 +15,9 @@ git clne https://github.com/Onnesok/project_WRO
 ```
 
 ## Restrictions
-Confidential
+Heh
 
-<h1>[NOTE:]</h2>After updating code edit this redme file.
+<h1>[NOTE:]</h2>
+Didn't participated for curriculam pressure...
+Code is not tested properly....
+check before you use it......
