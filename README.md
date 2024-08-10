@@ -10,7 +10,7 @@
 ## clone / Download
 
 ```bash
-git clne https://github.com/Onnesok/project_WRO
+git clone https://github.com/Onnesok/project_WRO
 
 ```
 
@@ -18,6 +18,6 @@ git clne https://github.com/Onnesok/project_WRO
 Heh
 
 <h1>[NOTE:]</h2>
-Didn't participated for curriculam pressure...
+Did not participate because of curriculum demands...
 Code is not tested properly....
 check before you use it......
